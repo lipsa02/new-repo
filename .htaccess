@@ -1,0 +1,6 @@
+Options -Indexes
+
+ErrorDocument 404 /404.html
+
+RewriteCond %{HTTP_HOST} ^expertalterationsandtuxedo$ [NC]
+RewriteRule (.*) http://localhost/expertalterationsandtuxedo/$1 [R=301,L] 
